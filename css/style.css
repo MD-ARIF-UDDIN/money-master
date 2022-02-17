@@ -2,12 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@400;500&display=swap");
 
 /* for main header of the website */
-.main-header {
-  font-family: "Montserrat", sans-serif;
-}
 
 /* for main header */
 .main-header {
+  font-family: "Montserrat", sans-serif;
   color: #31a5ac;
   font-size: 48px;
   font-weight: 700;
