@@ -1,3 +1,4 @@
+// getting calculate button
 const calculateBtn = document.getElementById("calculate-btn");
 
 // get input from user
@@ -29,22 +30,23 @@ calculateBtn.addEventListener("click", function (event) {
   if (totalExpenses <= incomeAmount) {
     document.getElementById("total-expenses").innerText = totalExpenses;
     document.getElementById("balance-field").innerText = balanceAmount;
-  } else {
+  } else if (totalExpenses > incomeAmount) {
     alert("Your expense can't be bigger than your income.");
   }
 });
 
-// saving amount
+//calculation of saving amount
 document.getElementById("save-btn").addEventListener("click", function () {
   let incomeAmount = getInputValue("income-input");
   let remaining = document.getElementById("balance-field").innerText;
+  let remainingAmount = remaining;
   let save = getInputValue("save");
 
   if (save <= 100) {
     const totalSaveAmount = (incomeAmount * save) / 100;
 
-    if (totalSaveAmount < parseFloat(remaining)) {
-      const remaingBalance = parseFloat(remaining) - totalSaveAmount;
+    if (totalSaveAmount <= remainingAmount) {
+      const remaingBalance = remainingAmount - totalSaveAmount;
 
       document.getElementById("saving-amount").innerText = totalSaveAmount;
 
@@ -52,5 +54,9 @@ document.getElementById("save-btn").addEventListener("click", function () {
     } else {
       alert("Your remaining balance is less than the money you want to save.");
     }
+  } else if (save >= 101) {
+    document.getElementById("saving-amount").innerText = "00";
+
+    alert("you can't save more than 100 percent");
   }
 });
