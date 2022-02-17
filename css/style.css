@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@400;500&display=swap");
 
+/* for main header of the website */
 .main-header {
   font-family: "Montserrat", sans-serif;
 }
+
+/* for calculate button and save button */
 #calculate-btn,
 #save-btn {
   color: white;
@@ -27,14 +30,18 @@
   margin: 0 auto;
 }
 
+/* for main body */
 .main-body {
   margin-top: 38px;
   font-family: "Roboto", sans-serif;
 }
+
+/* for the calculation body */
 .calculate-body {
   background-color: #f8f8f8;
 }
 
+/* for the save input */
 .save-input {
   border: none;
   background-color: #dcdcdc;
