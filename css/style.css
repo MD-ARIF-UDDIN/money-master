@@ -6,13 +6,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* for calculate button and save button */
-#calculate-btn,
-#save-btn {
-  color: white;
-  background-color: #59a5ff;
-}
-
 /* for main header */
 .main-header {
   color: #31a5ac;
@@ -39,6 +32,12 @@
 /* for the calculation body */
 .calculate-body {
   background-color: #f8f8f8;
+}
+/* calculate button and save button */
+#calculate-btn,
+#save-btn {
+  color: white;
+  background-color: #59a5ff;
 }
 
 /* for the save input */
