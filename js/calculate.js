@@ -9,7 +9,7 @@ function getInputValue(inputID) {
   if (isNaN(inputAmount) || inputAmount < 0) {
     inputBox.value = "";
     return alert(
-      "Please input valid amount of money in number format for:" + inputID
+      "Please input valid amount of money in number format for: " + inputID
     );
   } else {
     return inputAmount;
