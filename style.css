@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Moon+Dance&family=Poppins:wght@300;400;500&family=Quicksand&family=Roboto:wght@400;500&display=swap");
+
+.main-header {
+  font-family: "Montserrat", sans-serif;
+}
+#calculate-btn,
+#save-btn {
+  color: white;
+  background-color: #59a5ff;
+}
+
+/* for main header */
+.main-header {
+  color: #31a5ac;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 37px;
+}
+
+/* for input field */
+.input-body {
+  background-color: #dcdcdc;
+  border: none;
+  border-radius: 2px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-body {
+  margin-top: 38px;
+  font-family: "Roboto", sans-serif;
+}
+.calculate-body {
+  background-color: #f8f8f8;
+}
+
+.save-input {
+  border: none;
+  background-color: #dcdcdc;
+  border-radius: 2px;
+  width: 5rem;
+}
